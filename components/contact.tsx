@@ -7,7 +7,7 @@ export function Contact() {
     <section id="contact" className="py-20 px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Let's Build Something Together</h2>
+          <h2 className="text-3xl md:text-4xl font-regular text-foreground mb-6">Let's Build Something Together</h2>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8">
             Whether you need infrastructure expertise, full stack development, or technical consulting, I'm here to help
             bring your ideas to life.

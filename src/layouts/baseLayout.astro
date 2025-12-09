@@ -1,0 +1,24 @@
+---
+/**
+ * Base layout for all pages.
+ * Add metadata, fonts, structured wrapping, theme handling, etc.
+ */
+const { title = "Portfolio", description = "My portfolio website" } = Astro.props;
+---
+
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- Global stylesheet -->
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+
+  <body class="bg-background text-foreground font-sans">
+    <slot />
+  </body>
+</html>
